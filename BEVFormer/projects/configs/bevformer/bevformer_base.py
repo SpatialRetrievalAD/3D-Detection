@@ -218,7 +218,7 @@ model = dict(
 dataset_type = 'CustomNuScenesDataset'
 data_root = 'data/nuscenes/'
 file_client_args = dict(backend='disk')
-quality_json = 'data/nuScenes-Geography/streetview/quality_labels.json'
+quality_json = 'data/nuScenes-Geography-Data/streetview/quality_labels.json'
 
 
 train_pipeline = [

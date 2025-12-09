@@ -181,7 +181,7 @@ model = dict(
 # Data
 dataset_type = 'NuScenesDataset'
 data_root = 'data/nuscenes/'
-quality_json = 'data/nuScenes-Geography/streetview/quality_labels.json'
+quality_json = 'data/nuScenes-Geography-Data/streetview/quality_labels.json'
 file_client_args = dict(backend='disk')
 bda_aug_conf = dict(
     rot_lim=(-22.5, 22.5),
